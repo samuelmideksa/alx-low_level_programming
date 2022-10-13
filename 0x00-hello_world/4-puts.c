@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**printing in C without using printf**/
-int puts(void)
+int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle\n");
 	return(0);
