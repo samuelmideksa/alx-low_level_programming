@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * main - main function
+ * Return: Description of return value
  */
 int main(void)
 {
