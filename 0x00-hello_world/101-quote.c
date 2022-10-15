@@ -6,6 +6,7 @@
  */
 int main()
 {
-	quote("and that piece of art is useful\" - Dora Korpar, 2015-10-1");
+	char msg[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-1";
+	write(char);
 	return (1);
 }
