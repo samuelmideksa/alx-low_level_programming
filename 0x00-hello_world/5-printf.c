@@ -1,7 +1,6 @@
 #include <stdio.h>
 /*
- *Description: 'this program prints text'
- *followed by a new line using printf
+ * main - main function
  */
 int main(void)
 {
