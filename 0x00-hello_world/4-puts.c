@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *printing in C without using printf
+ * main - main function
  */
 int main(void)
 {
