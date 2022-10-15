@@ -1,8 +1,6 @@
 #include <stdio.h>
-/*
+/**
  * main - print "with proper grammar, but the outcome is a piece of art,"
- * 
- * Description: Longer description of the function
  */
 int main(void)
 {
