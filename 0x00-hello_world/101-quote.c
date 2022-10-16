@@ -2,11 +2,11 @@
 /**
  * main - Prints given text
  *
- * Return: 1
+ * Return: 1 on success
  */
-int main()
+int main(void)
 {
-	char ch = "and that piece of art is useful\" - Dora Korpar, 2015-10-1";
-	putchar(ch);
+	fprintf(stderr, "and that piece of art is useful\" - \
+		Dora korpar, 2015-10-19\n");
 	return (1);
 }
