@@ -6,7 +6,7 @@
  */
 int main()
 {
-	char msg[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-1";
-	write(char);
+	char ch = "and that piece of art is useful\" - Dora Korpar, 2015-10-1";
+	putchar(ch);
 	return (1);
 }
