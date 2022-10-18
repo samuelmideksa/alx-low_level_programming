@@ -11,8 +11,9 @@ int main(void)
 	digit = 0;
 	while (digit <= 9)
 	{
-		printf("%d\n", digit);
+		printf("%d", digit);
 		digit++;
 	}
+	printf("\n")
 	return (0);
 }
