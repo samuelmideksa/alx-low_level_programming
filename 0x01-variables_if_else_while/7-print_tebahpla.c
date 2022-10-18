@@ -4,11 +4,11 @@
  *
  * Return: zero
  */
-char main(void)
+int main(void)
 {
-	char la;
+	int la;
 	for (la = 'z'; la >= 'a'; la--)
 	putchar(la);
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
