@@ -8,7 +8,7 @@ int main(void)
 {
 	char al;
 
-	char al = 'a'
+	al = 'a';
 	while (al <= 'z')
 	{
 		if (al != 'e' && al != 'q')
