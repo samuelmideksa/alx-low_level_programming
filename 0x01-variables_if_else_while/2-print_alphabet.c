@@ -5,9 +5,9 @@
  * Return: zero
  */
 
-void main ()
+int main ()
 {
-	int al;
+	char al;
 	for (al = 'a'; al <= 'z'; al++)
 		putchar(al);
 		putchar('\n');
