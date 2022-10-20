@@ -6,7 +6,10 @@
  */
 int main(void)
 {
-	write(stderr, "and that piece of art is useful\" - \
-Dora korpar, 2015-10-19\n");
+	char pri;
+
+	pri = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+	putchar(pri);
+	putchar('\n')
 	return (1);
 }
