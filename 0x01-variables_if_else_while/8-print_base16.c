@@ -2,14 +2,20 @@
 /**
  * main - print all hexadecimal numbers in lowercase
  *
- * retunr: zero
+ * Return: 0.
  */
 int main(void)
 {
-	char hex;
-	for(hex = 0; hex++;)
+	int num;
+	int letter;
+
+	for (num = 0; num <= 10; num++)
 	{
-		putchar(hex);
+		putchar((num % 10) + '0');
+	}
+	for (letter = 'a'; letter <= 'f'; letter++)
+	{
+		putchar(letter);
 	}
 	putchar('\n');
 	return (0);
