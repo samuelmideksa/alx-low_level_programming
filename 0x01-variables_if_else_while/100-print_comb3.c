@@ -2,11 +2,11 @@
 
 /**
  * main - print 00 to 99,separated by a comma
- * 	  and in ascending order
+ *	  and in ascending order
  *
  * Return: 0 always.
  */
-int main (void)
+int main(void)
 {
 	int num1, num2;
 
@@ -16,8 +16,11 @@ int main (void)
 		{
 			putchar((num1 % 10) + '0');
 			putchar((num2 % 10) + '0');
+			if (num1 == 9 && num2 == 9)
+				continue;
 
-			putchar(',' + ' ');
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
