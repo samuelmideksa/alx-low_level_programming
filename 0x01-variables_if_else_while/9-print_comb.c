@@ -1,25 +1,21 @@
 #include <stdio.h>
-
 /**
- * main - print 00 to 99,separated by a comma
- * 	  and in ascending order
+ * main - Prints all possible combinations of single-digit numbers.
  *
- * Return: 0 always.
+ * Return: Always 0.
  */
-int main (void)
+
+int main(void)
 {
-	int num1, num2;
+	int num;
 
-	for (num1 = 0; num1 < 10; num1++)
+	for (num = 0; num <= 9; num++)
 	{
-		for (num2 = 0; num2 < 10; num2++)
-		{
-			putchar((num1 % 10) + '0');
-			putchar((num2 % 10) + '0');
+		putchar((num % 10) + '0');
 
-			putchar(',' + ' ');
-		}
+		putchar(',' + ' ');
 	}
 	putchar('\n');
 	return (0);
+
 }
