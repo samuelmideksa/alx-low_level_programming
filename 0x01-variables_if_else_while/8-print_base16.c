@@ -7,10 +7,10 @@
 int main(void)
 {
 	char hex;
-	for(hex = 0; hex++)
+	for(hex = 0; hex++;)
 	{
 		putchar(hex);
 	}
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
