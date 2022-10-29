@@ -4,7 +4,7 @@
   * times_table - print time table
   */
 
-void times_table(void)
+void times_table(int)
 {
 	int num, mult, prod;
 
