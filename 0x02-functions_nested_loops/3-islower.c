@@ -7,9 +7,9 @@
   * 0 otherwise
   */
 
-void int_islower(int c)
+int int_islower(int c)
 {
-	if (c > 'a'&& c < 'z')
+	if (c > 'a' && c < 'z')
 		return (1);
 	else
 		return (0);
