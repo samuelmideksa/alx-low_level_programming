@@ -6,7 +6,7 @@
   * Return: o always.
   */
 
-int jack_bauer(int)
+void jack_bauer(void)
 {
 	int hour, minute;
 
@@ -22,6 +22,5 @@ int jack_bauer(int)
 			_putchar('\n');
 		}
 	}
-	return (0);
 }
 	
