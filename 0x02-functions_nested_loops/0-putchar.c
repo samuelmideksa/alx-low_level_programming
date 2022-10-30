@@ -1,14 +1,13 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * main - print c to standard output
- * @c: The character to print
+ * main - print putchar followed by a new line
  *
- * Return: on success 1
- * on error, -1
+ * Return: 0 always.
  */
 
-int _putchar(char c)
+int main(void)
 {
-	return (write(1, &c, 1));
+	printf("_putchar");
+	return (0);
 }
