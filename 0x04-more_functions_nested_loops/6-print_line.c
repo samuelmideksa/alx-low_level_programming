@@ -2,7 +2,7 @@
 
 /**
   * print_line - print line in the terminal
-  * @n - number of dash
+  * @n: umber of dash
   */
 
 void print_line(int n)
@@ -15,5 +15,5 @@ void print_line(int n)
 			_putchar('_');
 	}
 
-	_putchar(' ');
+	_putchar('\n');
 }
