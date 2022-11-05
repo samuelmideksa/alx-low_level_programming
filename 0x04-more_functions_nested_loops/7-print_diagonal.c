@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
-  * print_line - print line in the terminal
+  * print_diagonal - print line in the terminal
   * @n: umber of dash
   */
 
 void print_diagonal(int n)
 {
-	int len space;
+	int len, space;
 
 	if (n > 0)
 	{
