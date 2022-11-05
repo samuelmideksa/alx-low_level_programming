@@ -2,7 +2,6 @@
 
 /**
   * print_numbers - print numbers 0123456789 followed by a new line
-  * @n: numbers
   */
 
 void print_numbers(void)
